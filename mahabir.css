@@ -1,0 +1,390 @@
+              /*Necessary Adjustments*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, serif;
+}
+img, video, embed, object{max-width: 100%;}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+                /*Container section*/
+.container-full{
+    width: 100%;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.card{
+    border-radius: 4px;
+    background: white;
+    padding:
+}
+        /*.......... Navigation Bar Section...............*/
+.navbar{
+    width: 100%;
+}
+.navbar .content{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.navbar-fixed{
+    position: absolute;
+    top:0px;
+    margin:0px;
+    padding: 0px;
+    z-index: 1;
+}
+.navbar-fixed-top{
+    position:fixed;
+}
+.navbar-inverse{
+    background: black;
+    color: white;
+}
+             /*.................. Drop Down section................*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    padding: .5rem;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+                /*................spacing section................*/
+.py-4{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.p-4{
+    padding: 2rem, 2rem, 2rem, 2rem;
+}
+.my-4{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.m-4{
+    margin:2rem, 2rem, 2rem, 2rem;
+}
+                /*Text formating section*/
+.lead{
+    font-family: sans-serif, serif;
+    font-size: 16em;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-white{
+    color: white;
+}
+              /*Coloring Section*/
+.bg-red{
+    background-color: #e53935;
+}
+.bg-blue{
+    background-color: #0082b6;
+}
+.bg-green{
+    background: #2e7d32;
+}
+.bg-purple{
+    background: #9c27b0;
+}
+.bg-yellow{
+    background: #ff8f00;
+}
+.bg-pink{
+    background: #e91e63;
+}
+.bg-indigo{
+    background: #3f51b5;
+}
+              /*Table Section*/
+.table{
+    width: 100%;
+    font-size: 1.5rem;
+	border-collapse: collapse;
+	border-spacing: 0;
+	display: table;
+}
+.table td{
+    padding-bottom: 0.5rem;
+}
+.table-bordered{
+    border: 1px solid black;
+}
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #e9ecef;
+    padding-left: .5rem;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 1px;
+}
+.table-inverse
+thead{
+    background: black;
+    color: white;
+    padding-left: .5rem;
+}
+.table-inverse tbody{
+    background: grey;
+    padding-left: .5rem;
+}
+.table-inverse td{
+    padding-left: .5rem;
+}
+              /*.......................... Button Section...................... */
+.button{
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    background: #e53935;
+    cursor: pointer;
+}
+.button-rounded{
+    color: #fff;
+    border: 1px solid #808080;
+    border-radius: 50px;
+    padding: 0.5rem 0.75rem;
+    font-weight: lighter;
+    cursor: pointer;
+    background: #2e7d32;
+}
+.button-green{
+    background-color: green;
+    color: white;
+}
+
+.button-red{
+    background-color: red;
+    color: white;
+}
+          /*List Styling section*/
+.inline-list li{
+    display: inline-block;
+    list-style: none;
+/*    padding-right: .5rem;*/
+}
+         /*Positioning sectioin*/
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+      /* Banner Section*/
+.banner{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: 500px;
+    background: rgba(0,0,0,0.4);
+}
+.banner-text{
+    padding-top: 20%; 
+}
+.banner-button{
+    padding-bottom: 20%;
+}
+         /*Card Section*/
+.card{
+    width: 100%;
+    background: yellow;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.card-header{
+	margin-top: 4%;
+}
+.card-image{
+	width: 50%;
+	height: auto;
+	border-radius: 50%;
+}
+.card-content{
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+.card-text{
+	padding: 2%;
+}
+         /*avatar section*/
+.avatar{
+    height: 50px;
+    border-radius: 50%;
+}
+.avatar-small{
+    height: 25px;
+    border-radius: 50%;
+}
+         /*..........Form Styling Section..........*/
+.form{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 1rem;
+	text-align: center;
+}
+.input-form{
+	width: 90%;
+	height: 1.5rem;
+	padding: .5rem;
+	margin: .5rem;
+}
+
+/*.............. Modal Section ....................*/
+
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+.modal-body {
+  margin: 20px 0;
+}
+
+.modal-default-button {
+  float: right;
+}
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-to {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-to .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*.................Grid System section..............*/
+.row{
+		display: flex;
+		flex-wrap: wrap;
+	} 
+.s-one,.l-one,.m-one{width: 100%;}
+.s-two,.l-two,.m-two{width: 100%;}
+.s-three,.l-three,.m-three{width: 100%;}
+.s-four,.l-four,.m-four{width: 100%;}
+.s-five,.l-five,.m-five{width: 100%;}
+.s-six,.l-six,.m-six{width: 100%;}
+.s-seven,.l-seven,.m-seven{width: 100%;}
+.s-eight,.l-eigth,.m-eight{width: 100%;}
+.s-nine,.l-nine,.m-nine{width: 100%;}
+.s-ten,.l-ten,.m-ten{width: 100%;}
+.s-eleven,.l-eleven,.m-eleven{width: 100%;}
+.s-twelve,.l-twelve,.m-twelve{width: 100%;}
+
+/*..........................Media Query Section........*/
+@media screen and (min-width: 576px) { 
+	
+	.s-one{width: 8.333%;}
+    .s-two{width: 16.666%;}
+    .s-three{width: 24.999%;}
+    .s-four{width: 33.333%;}
+    .s-five{width: 41.666%;}
+    .s-six{width: 49.999%;}
+    .s-seven{width: 58.331%;}
+	.s-eight{width: 64.664%;}
+    .s-nine{width: 74.999%;}
+    .s-ten{width: 83.333%;}
+    .s-eleven{width: 91.666%;}
+    .s-twelve{width: 99.999%;}
+	
+}
+
+
+@media (min-width: 768px) { ... }
+@media (min-width: 992px) {
+	.row{
+		display: flex;
+		flex-wrap: wrap;
+	}
+    .m-one{width: 8.333%;}
+    .m-two{width: 16.666%;}
+    .m-three{width: 24.999%;}
+    .m-four{width: 33.333%;}
+    .m-five{width: 41.666%;}
+    .m-six{width: 49.999%;}
+    .m-seven{width: 58.331%;}
+	.m-eight{width: 64.664%;}
+    .m-nine{width: 74.999%;}
+    .m-ten{width: 83.333%;}
+    .m-eleven{width: 91.666%;}
+    .m-twelve{width: 99.999%;}
+}
+
+@media (min-width: 1200px) {
+	.row{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.l-one{width: 8.333%;}
+    .l-two{width: 16.666%;}
+    .l-three{width: 24.999%;}
+    .l-four{width: 33.333%;}
+    .l-five{width: 41.666%;}
+    .l-six{width: 49.999%;}
+    .l-seven{width: 58.331%;}
+	.l-eight{width: 64.664%;}
+    .l-nine{width: 74.999%;}
+    .l-ten{width: 83.333%;}
+    .l-eleven{width: 91.666%;}
+    .l-twelve{width: 99.999%;}
+}
