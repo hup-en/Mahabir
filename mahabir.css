@@ -19,7 +19,6 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 .card{
     border-radius: 4px;
     background: white;
-    padding:
 }
         /*.......... Navigation Bar Section...............*/
 .navbar{
@@ -43,6 +42,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     background: black;
     color: white;
 }
+
              /*.................. Drop Down section................*/
 .dropdown{
     position: relative;
@@ -350,7 +350,7 @@ thead{
 }
 
 
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {  }
 @media (min-width: 992px) {
 	.row{
 		display: flex;
