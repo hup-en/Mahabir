@@ -24,9 +24,11 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 .navbar{
     width: 100%;
 }
-.navbar .content{
+.navbar .navbar-content{
     padding-top: .5rem;
     padding-bottom: .5rem;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .navbar-fixed{
     position: absolute;
@@ -41,6 +43,23 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 .navbar-inverse{
     background: black;
     color: white;
+}
+.navbar-brand{
+    text-decoration: none;
+    width: 30%;
+}
+.navbar-navigation{
+    width: 70%;
+}
+.navbar-items{
+    list-style: none;
+}
+.navbar-items-li{
+    display: inline-block;
+    padding: 5%;
+}
+.navbar-items-a{
+    text-decoration: none;
 }
 
              /*.................. Drop Down section................*/
