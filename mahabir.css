@@ -134,7 +134,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 .bg-indigo{
     background: #3f51b5;
 }
-              /*Table Section*/
+              /*-----------------------Table Section--------------*/
 .table{
     width: 100%;
     font-size: 1.5rem;
@@ -199,23 +199,13 @@ thead{
     background-color: red;
     color: white;
 }
-          /*List Styling section*/
+          /*--------------- List Styling section--------*/
 .inline-list li{
     display: inline-block;
     list-style: none;
-/*    padding-right: .5rem;*/
+/*-padding-right: .5rem;*/
 }
-         /*Positioning sectioin*/
-.left{
-    text-align: left;
-}
-.right{
-    text-align: right;
-}
-.center{
-    text-align: center;
-}
-      /* Banner Section*/
+      /*---------------- Banner Section------------*/
 .banner{
     margin-top: 1rem;
     width: 100%;
@@ -230,7 +220,7 @@ thead{
 .banner-button{
     padding-bottom: 20%;
 }
-         /*Card Section*/
+         /*----------------Card Section--------------*/
 .card{
     width: 100%;
     background: yellow;
