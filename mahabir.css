@@ -98,7 +98,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
                 /*Text formating section*/
 .lead{
     font-family: sans-serif, serif;
-    font-size: 16em;
+    font-size: 6em;
 }
 .text-center{
     text-align: center;
