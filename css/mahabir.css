@@ -95,7 +95,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 .m-4{
     margin:2rem, 2rem, 2rem, 2rem;
 }
-                /*Text formating section*/
+/*..............Text formating section............................*/
 .lead{
     font-family: sans-serif, serif;
     font-size: 6em;
@@ -112,7 +112,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 .text-white{
     color: white;
 }
-              /*Coloring Section*/
+              /*............................Coloring Section...................*/
 .bg-red{
     background-color: #e53935;
 }
@@ -198,6 +198,27 @@ thead{
 .button-red{
     background-color: red;
     color: white;
+}
+.button-yellow{
+    background-color: #ff8f00;
+    color: white;
+}
+.button-blue{
+    background-color: #0082b6;
+    color:white;
+
+}
+.button-purple{
+    background-color: #9c27b0;
+    color:white;
+}
+.button-pink{
+    background-color: #e91e63;
+    color: white;
+}
+.button-indigo{
+    background-color: #3f51b5;
+    color:white;
 }
           /*--------------- List Styling section--------*/
 .inline-list li{
