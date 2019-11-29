@@ -1,4 +1,11 @@
-              /*Necessary Adjustments*/
+/* 
+Project Name: Mahabir.css
+Description: Front-end web-development framework developed in inpiration of Dr. Mahabir Pun
+Creator: Hupen Paija
+*/
+
+/*Necessary Adjustments*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -20,7 +27,9 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     border-radius: 4px;
     background: white;
 }
+
         /*.......... Navigation Bar Section...............*/
+
 .navbar{
     width: 100%;
 }
