@@ -14,6 +14,7 @@ Mahabir/
 |____ Js      // Source files for Javascript
 |    |__ Jquery.js  // Source file for Jquery(It will be updated as new version of jquery updates)
 |    |__ mahabir.js   // Main Js file
+|____ index.html  // Examples and demo section
 ```
 
 #### Documentation
