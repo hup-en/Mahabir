@@ -5,10 +5,11 @@ This library is developed on the inspirational work of Dr. Mahabir Pun, a social
 #### Features
 
 The Framework is Designed with rich sets of Features, that helps you creating modern websites easily.
-.._ Rich Sets of Beautifully Designed Icons
-.._ Fully Responsive based on CSS3
-.._ Varieties of color schemes
-.._ Beautiful, Customized Animation sets
+
+- Rich Sets of Beautifully Designed Icons
+- Fully Responsive based on CSS3
+- Varieties of color schemes
+- Beautiful, Customized Animation sets
 
 #### File Structure is as follows
 
