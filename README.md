@@ -8,6 +8,7 @@ This library is developed on the inspirational work of Dr. Mahabir Pun, a social
 Mahabir/
 |____ css    // Source files for cascading Style sheet
 |    |__ mahabir.css   // Main Css file
+|    |__ mahabir-animate.min.css  // Minimized mahabir Animation
 |    |__ mahabir-animation.css // Source file for Animation Capabilities
 |
 |____ Js      // Source files for Javascript
