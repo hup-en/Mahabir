@@ -1,6 +1,6 @@
 /* 
 Project Name: Mahabir.css
-Description: Front-end web-development framework developed in inpiration of Dr. Mahabir Pun
+Description: Front-end web-development framework developed in inpiration of Dr. Mahabir Pun.
 Creator: Hupen Paija
 */
 
@@ -37,6 +37,8 @@ section {
 .container {
   width: 75%;
   margin: 0 auto;
+  background: #cccccc;
+  border-radius: 2px;
 }
 .card {
   border-radius: 4px;
@@ -110,7 +112,7 @@ section {
   padding-bottom: 2rem;
 }
 .p-4 {
-  padding: 2rem, 2rem, 2rem, 2rem;
+  padding: 4rem, 4rem, 4rem, 4rem;
 }
 .my-4 {
   margin-top: 2rem;
@@ -201,7 +203,6 @@ section {
   border-radius: 4px;
   font-weight: bold;
   color: white;
-  background: #e53935;
   cursor: pointer;
 }
 .button-rounded {
