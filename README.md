@@ -26,7 +26,7 @@ Mahabir/
 |
 |____ Icon   //Folder for all the font-based Icons
 |____ index.html  // Examples and demo section
-|____ wercker.yml  //Pipeline setup file
+|____ wercker.yml  //CI setup file
 ```
 
 #### Documentation
