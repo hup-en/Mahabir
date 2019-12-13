@@ -23,6 +23,8 @@ Mahabir/
 |____ Js      // Source files for Javascript
 |    |__ Jquery.js  // Source file for Jquery(It will be updated as new version of jquery updates)
 |    |__ mahabir.js   // Main Js file
+|
+|____ Icon   //Folder for all the font-based Icons
 |____ index.html  // Examples and demo section
 |____ wercker.yml  //Pipeline setup file
 ```
@@ -30,3 +32,4 @@ Mahabir/
 #### Documentation
 
 The link to the documentation will be soon published.
+We are in search of any developer who can make the documentation for this project.
